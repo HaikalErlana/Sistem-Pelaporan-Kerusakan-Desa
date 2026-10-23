@@ -93,7 +93,7 @@ Secara default, API berjalan pada:
 |---|---|---|
 | GET | `/api/kategori` | Mengambil seluruh data kategori |
 | GET | `/api/kategori/:id` | Mengambil kategori berdasarkan ID |
-| GET | `/api/kategori/nama/:nama` | Mencari kategori berdasarkan nama |
+| GET | `/api/kategori/nama/:jalan` | Mencari kategori berdasarkan jalan |
 | POST | `/api/kategori` | Menambahkan kategori baru |
 | PUT | `/api/kategori/:id` | Memperbarui kategori |
 | DELETE | `/api/kategori/:id` | Menghapus kategori |
@@ -102,7 +102,7 @@ Endpoint di atas merupakan contoh implementasi CRUD untuk tabel kategori kerusak
 
 ## Hasil Pengujian API
 
-Pengujian dilakukan menggunakan Postman terhadap enam operasi API kategori kerusakan.
+Pengujian dilakukan menggunakan Postman terhadap enam operasi API kategori kerusakan pada desa.
 
 ### 1. GET — Seluruh Data
 
